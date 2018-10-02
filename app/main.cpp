@@ -7,7 +7,7 @@ int main()
     std::cout << "Averaged sensor reading: " << lightSensor.Read() << std::endl;
     bool terminator;
     terminator=1;
-    if( terminator )
+    if(terminator)
     {
         std::cout << "DONE" << std::endl;
     }
