@@ -42,6 +42,8 @@ public:
   * @brief getdata reads two numbers from the user
   * @return void
   */
-  void getdata();
+  virtual ~A();
+  virtual void getdata();
+  virtual int producta();
 };
 #endif /* CLASS_A_H_ */
