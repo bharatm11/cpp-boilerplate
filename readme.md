@@ -19,4 +19,6 @@ make
 Run tests: ./test/cpp-test
 Run program: ./app/shell-app
 ```
+## Dependencies
+Google Mock
 
