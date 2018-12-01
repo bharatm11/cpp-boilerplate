@@ -32,10 +32,11 @@
 
 #include "class_A.hpp"
 #include "class_B.hpp"
+
 int main()
 {
     B obj1;          //object of derived class B
     obj1.getdata();
     obj1.product();
     return 0;
-}  
+}
