@@ -32,9 +32,12 @@
 */
 
 #include "class_A.hpp"
-#include "class_B.hpp"
-
 void A::getdata() {
   std::cout << "\nEnter value of x and y:\n";
   std::cin >> x >> y;
 }
+int A::producta() {
+  std::cout << "\nProduct= " << x * y;
+  return 5*6;
+}
+A::~A() {}
